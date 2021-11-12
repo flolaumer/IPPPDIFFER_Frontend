@@ -1,0 +1,23 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+th {
+  background-color: #f3f3f3;
+  color: var(--groupui-vwag-color-grey-900);
+}
+
+td {
+  max-width: 15em;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}

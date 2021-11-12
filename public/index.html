@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoidm9sa3N3YWdlblwvYWNjb3VudHNcL2ZjXC80MDAwNTY5XC9mYXZpY29uc1wvYzRcLzFcLzQ5MTliZTlhNDQxYWE1N2VlZjRlY2M4MmM1M2ZhNjVmLTE2MTc4MDI5NzAucG5nIn0:volkswagen:ULDkaDxGZY4DUnZn2A-G-oEmTjVKK8VrnVhS-ypZVTI?rect=0,3,631,631&reference_width=631" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoidm9sa3N3YWdlblwvYWNjb3VudHNcL2ZjXC80MDAwNTY5XC9mYXZpY29uc1wvYzRcLzFcLzQ5MTliZTlhNDQxYWE1N2VlZjRlY2M4MmM1M2ZhNjVmLTE2MTc4MDI5NzAucG5nIn0:volkswagen:ULDkaDxGZY4DUnZn2A-G-oEmTjVKK8VrnVhS-ypZVTI?rect=0,3,631,631&reference_width=631" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +24,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+    <!-- integration of GroupUI -->
+    <script type="module" src="https://groupui-assets.apps.emea.vwapps.io/components/latest/group-ui/group-ui.esm.js"></script>
+    <script nomodule src="https://groupui-assets.apps.emea.vwapps.io/components/latest/group-ui/group-ui.js"></script>
+
+    <link rel="stylesheet" href="https://groupui-assets.apps.emea.vwapps.io/components/latest/group-ui/assets/themes/man/man.css" />
+    <link rel="stylesheet" href="https://groupui-assets.apps.emea.vwapps.io/components/latest/group-ui/assets/themes/vwag/vwag.css" />
+    <link rel="stylesheet" href="https://groupui-assets.apps.emea.vwapps.io/components/latest/group-ui/assets/themes/audi/audi.css" />
+    <link rel="stylesheet" href="https://groupui-assets.apps.emea.vwapps.io/components/latest/group-ui/assets/themes/porschePlant/porschePlant.css" />
+
+    <title>IPPP Differ</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

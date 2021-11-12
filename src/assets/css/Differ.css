@@ -1,0 +1,41 @@
+.tree-container {
+  max-height: 75vh;
+  min-height: 400px;
+  z-index: 99;
+}
+
+.tree-border {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+}
+
+@media (max-width: 769px) {
+  .center-content {
+    margin: 1em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1800px) {
+  .center-content {
+    padding: 2em 1em;
+    margin: 1em auto;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 5px 30px rgb(44 54 59 / 10%);
+  }
+}
+
+@media only screen and (min-width: 1801px) {
+  .center-content {
+    max-width: 1700px;
+    padding: 2em 1em;
+    margin: 1em auto !important;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 5px 30px rgb(44 54 59 / 10%);
+  }
+}
