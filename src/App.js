@@ -37,15 +37,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-         
- 
-          <ThemeProvider theme={theme}>
-            <Header></Header>
-            <Differ></Differ>
-            <Scroll showBelow="250"></Scroll>
-          </ThemeProvider>
-        </header>
+        <ThemeProvider theme={theme}>
+          <Header></Header>
+          <Differ></Differ>
+          <Scroll showBelow="250"></Scroll>
+        </ThemeProvider>
       </div>
     );
   }
