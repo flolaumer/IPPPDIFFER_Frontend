@@ -5,42 +5,22 @@ import Differ from './components/Differ';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Scroll from './components/Scroll';
 
-const primaryColor = getComputedStyle(document.documentElement)
-  .getPropertyValue('--groupui-vwag-color-petrol-800-primary')
-  .trim();
-      
-const secondaryColor = getComputedStyle(document.documentElement)
-  .getPropertyValue('--groupui-vwag-color-grey-400-secondary')
-  .trim();
-
-const dangerColor = getComputedStyle(document.documentElement)
-  .getPropertyValue('--groupui-vwag-color-signal-red-800-primary')
-  .trim();
-
-const warningColor = getComputedStyle(document.documentElement)
-  .getPropertyValue('--groupui-vwag-color-signal-orange-800-primary')
-  .trim();
-
-const successColor = getComputedStyle(document.documentElement)
-  .getPropertyValue('--groupui-vwag-color-signal-green-800-primary')
-  .trim();
-
 let theme = createTheme({
   palette: {
     primary: {
-      main: primaryColor
+      main: "#20607E"
     },
     secondary: {
-      main: secondaryColor
+      main: "#A8ADB3"
     },
     danger: {
-      main: dangerColor
+      main: "#DA0C1F"
     },
     warning: {
-      main: warningColor
+      main: "#FF9B00"
     },
     success: {
-      main: successColor
+      main: "#64A844"
     }
   },
 });
